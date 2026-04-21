@@ -8,7 +8,6 @@
 - **Tickers:** MSFT, AMZN, GOOGL
 - **Period:** Fiscal Years 2019–2025
 - **Key Fields:** Net Income (`ni`), Operating Cash Flow (`oancf`), Capital Expenditures (`capx`), Accounts Receivable (`rect`), Inventory (`invt`), Accounts Payable (`ap`), Revenue (`revt`), Total Assets (`at`), Total Liabilities (`lt`), Total Equity (`teq`)
-*Note: A valid WRDS account is required to fetch the data. The notebook includes a placeholder for your username.*
 ## 3. Methods
 The analysis is implemented in Python within a Jupyter Notebook. Main steps include:
 1. **Data Acquisition:** SQL query via `wrds` package to extract financial statements from Compustat.
